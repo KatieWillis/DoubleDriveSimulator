@@ -8,21 +8,22 @@ Katie Willis1 and Austin Burt1.
 
 For correspondence: katie.willis16@imperial.ac.uk
 
-This code is currently being used for other projects...
 ___
 ## Requirements
 
-* Julia 1.5 or above
 * Jupyter notebook
-* The following Julia packages: 
-    * NBInclude
-    * SymPy
-    * DataFrames
-    * LinearAlgebra
-    * CSV
-    * Distributed
-    * Plots
-    * PyPlot
+* Julia 1.5 or above
+* All dependencies can be installed by running the following code in julia from the location of the downloaded files (This only needs to be done once.) 
+```
+using Pkg
+Pkg.activate("./Project/")
+Pkg.instantiate()
+```
+
+The environment can then be loaded at the beginning of each jupyter session by running the following:
+```
+] activate "./Project/"
+```
 ___
 ## User notes
 
