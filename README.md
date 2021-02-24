@@ -1,6 +1,6 @@
 # DoubleDriveSimulator
 ___
-This repository contains jupyter notebooks associated with the paper "Double drives and private alleles for localised population genetic control" pending publication in PLOS Genetics, and available at https://www.biorxiv.org/content/10.1101/2021.01.08.425856v2.
+This repository contains jupyter notebooks associated with the manuscript "Double drives and private alleles for localised population genetic control" available at https://www.biorxiv.org/content/10.1101/2021.01.08.425856v2.
 
 Katie Willis1 and Austin Burt1.
 
@@ -13,14 +13,14 @@ ___
 
 * Jupyter notebook
 * Julia 1.5 or above
-* All dependencies can be installed by running the following code in julia from the location of the downloaded files (This only needs to be done once) 
+* All dependencies can be installed by running the following code in julia from the location of the downloaded files (This only needs to be done once)
 ```
 using Pkg
 Pkg.activate("./Project/")
 Pkg.instantiate()
 ```
 
-The environment can then be loaded at the beginning of each jupyter session by running the following:
+The environment then needs to be loaded at the beginning of each jupyter session by running the following:
 ```
 ] activate "./Project/"
 ```
