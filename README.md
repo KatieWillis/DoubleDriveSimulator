@@ -13,17 +13,24 @@ ___
 
 * Jupyter notebook
 * Julia 1.5 or above
-* All dependencies can be installed by running the following code in julia from the location of the downloaded files (This only needs to be done once)
+* All dependencies can be installed by running the following code in julia from the location of the downloaded files to initiate the environment (This only needs to be done once)
 ```
 using Pkg
-Pkg.activate("./Project/")
+Pkg.activate("./Environment/")
 Pkg.instantiate()
 ```
 
-The environment then needs to be loaded at the beginning of each jupyter session by running the following:
+The environment can loaded at the beginning of each jupyter session by running:
 ```
-] activate "./Project/"
+] activate "./Environment/"
 ```
+
+And the required packages can be loaded by running:
+```
+using NBInclude
+@nbinclude("./Environment/Setup.ipynb");
+```
+
 ___
 ## User notes
 
