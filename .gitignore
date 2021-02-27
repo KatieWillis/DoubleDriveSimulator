@@ -1,1 +1,3 @@
+
 .ipynb_checkpoints/*         #Ignore all jupyter checkpoints
+/Environment/.ipynb_checkpoints/*
