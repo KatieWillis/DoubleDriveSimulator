@@ -2,6 +2,8 @@
 ___
 This repository contains jupyter notebooks associated with the manuscript "Double drives and private alleles for localised population genetic control" available at https://www.biorxiv.org/content/10.1101/2021.01.08.425856v2.
 
+We are currently using this to explore other questions. If you are interested in extending the code please get in touch.
+
 Katie Willis1 and Austin Burt1.
 
 1 Department of Life Sciences, Imperial College, Silwood Park, Ascot, SL5 7PY, UK
