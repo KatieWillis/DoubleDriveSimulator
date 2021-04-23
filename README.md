@@ -1,6 +1,6 @@
 # DoubleDriveSimulator
 ___
-This repository contains jupyter notebooks associated with the manuscript "Double drives and private alleles for localised population genetic control" available at https://www.biorxiv.org/content/10.1101/2021.01.08.425856v2.
+This repository contains jupyter notebooks associated with the publication "Double drives and private alleles for localised population genetic control" available at https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1009333.
 
 We are currently using this to explore other questions. If you are interested in extending the code please get in touch.
 
